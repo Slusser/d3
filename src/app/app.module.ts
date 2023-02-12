@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { BasicsComponent } from './basics/basics.component';
+import { DonutComponent } from './donut/donut.component';
+import { TreeComponent } from './tree/tree.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarChartComponent,
     PieChartComponent,
-    BasicsComponent
+    BasicsComponent,
+    DonutComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,
